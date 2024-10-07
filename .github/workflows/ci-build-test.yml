@@ -33,6 +33,7 @@ jobs:
       # Run tests to verify the built executable's functionality
       - name: Run tests
         run: |
+          cd build
           ctest --verbose  # Run tests to verify functionality
 
 
