@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI Build and Test Pipeline
 
 # Trigger the workflow on pushes and pull requests to the main branch
 on:
