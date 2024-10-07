@@ -10,3 +10,6 @@ FetchContent_MakeAvailable(googletest)
 # Add the test executable for Circuit
 add_executable(CircuitTest CircuitTest.cpp)
 target_link_libraries(CircuitTest gtest gtest_main ResistCalcCore)
+
+# Add tests
+add_test(NAME CircuitTest COMMAND CircuitTest --output-on-failure --gtest_color=yes)
